@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+
+}
+
+.heading_style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.card_img{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    align-items: center;
+}
+.cards{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+    background-color: #fff;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px black;
+    float: left;
+}
+
+
+card:hover{
+    box-shadow: 0px 30px  18px -8px black;
+    transform: scale(2,2);
+}
+
+.card_img{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    align-items: center;
+}
+
+.card_info{
+    background-color: #fff;
+    border-top-left-radius:12px ;
+    border-top-right-radius: 12px;
+    padding: 16px 24px  24px  24px;
+    background-color: #fff;
+    
+    align-items: center;
+}
+.slotmachin{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    justify-content: center;
+}
